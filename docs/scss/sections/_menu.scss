@@ -1,0 +1,31 @@
+.menu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.menu__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.menu__list__item {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-right: 22px;
+	@media(min-width: 922px) {
+		margin-right: 42px;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.menu__list__item__link {
+	text-decoration: none!important; 
+	color: $pj_gray;
+	font-size: 16px;
+	font-weight: 300;
+	&:hover {
+		color: #d8429e;
+	}
+}

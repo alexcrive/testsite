@@ -1,0 +1,12 @@
+.slider {
+	
+}
+
+.slide {
+	width: 100%;
+	height: 420px;
+	background-color: #e1e0fe;
+	@media(min-width: 992px) {
+		height: 540px;
+	}
+}

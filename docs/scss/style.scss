@@ -1,0 +1,52 @@
+@import "base/_variables";
+@import "base/_functions";
+@import "base/_utils";
+
+// General
+@import "base/_base";
+
+// Blocks
+@import "blocks/_lines";
+
+// Sections
+@import "sections/_header";
+@import "sections/_menu";
+@import "sections/_slider";
+@import "sections/_main";
+@import "sections/_footer";
+@import "sections/_copyright";
+
+//Plugins
+@import "../../node_modules/normalize.css/normalize";
+@import "../../node_modules/slick-carousel/slick/slick";
+
+//bootstrap
+
+/* $grid-gutter-width-base: 20px;
+
+$grid-gutter-widths: ( xs: $grid-gutter-width-base, 
+sm: $grid-gutter-width-base, 
+md: $grid-gutter-width-base, 
+lg: $grid-gutter-width-base, 
+xl: $grid-gutter-width-base
+); */
+ $container-max-widths: (
+  sm: 540px,
+  md: 768px,
+  lg: 992px,
+  xl: 1410px
+);
+$grid-gutter-width: (
+	7px
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+/* 
+roboto
+font-weight: 300; - light 
+font-weight: 400; - regular 
+font-weight: 700; - bold 
+ */
+
+
+
